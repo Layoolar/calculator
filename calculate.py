@@ -1,6 +1,9 @@
+from calculator import *
 # Program make a simple calculator
 
 # This function adds two numbers
+
+
 def add(x, y):
     return x + y
 
@@ -39,7 +42,8 @@ while True:
         num2 = float(input("Enter second number: "))
 
         if choice == '1':
-            print(num1, "+", num2, "=", add(num1, num2))
+            newAdd = Calculator()
+            print(num1, "+", num2, "=", Calculator.add(num1, num2))
 
         elif choice == '2':
             print(num1, "-", num2, "=", subtract(num1, num2))
