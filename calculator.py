@@ -1,6 +1,6 @@
 from msilib.schema import Class
 
 
-class Calculator():
-    def add(x, y):
-        return x + y
+class ThisCalculator():
+    def add(self, x, y):
+        return x+y

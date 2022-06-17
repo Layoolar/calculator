@@ -1,4 +1,4 @@
-from calculator import Calculator
+from calculator import ThisCalculator
 # Program make a simple calculator
 
 # This function adds two numbers
@@ -42,7 +42,7 @@ while True:
         num2 = float(input("Enter second number: "))
 
         if choice == '1':
-            newAdd = Calculator()
+            newAdd = ThisCalculator()
             print(num1, "+", num2, "=", newAdd.add(num1, num2))
 
         elif choice == '2':
